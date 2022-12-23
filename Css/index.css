@@ -1,0 +1,201 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #E5E5E5;
+
+}
+
+
+#logoLetter {
+    padding: 2.5rem;
+    font-size: 5.2rem;
+
+    /* Dark blue/dark-blue-300 */
+    color: #0a3871;
+}
+
+#botaoCrip {
+    font-size: 1rem;
+    width: 150px;
+    height: 50px;
+
+    /* Dark blue/dark-blue-300 */
+    background-color: #0a3871;
+    border-radius: 24px;
+    color: #ffff;
+}
+
+#botaoCrip:hover {
+    transition-duration: 0.4s;
+
+    background-color: #f0f8ff;
+    color: #0a3871;
+    cursor: pointer;
+}
+
+#botaoDescrip {
+    font-size: 1rem;
+    width: 150px;
+    height: 50px;
+
+    background-color: #f0f8ff;
+    color: #0a3871;
+    border-radius: 24px;
+}
+
+#botaoDescrip:hover {
+    transition-duration: 0.4s;
+
+    background-color: #0a3871;
+    color: #f0f8ff;
+    cursor: pointer;
+}
+
+#campoMsgEntrada {
+    padding: 50px;
+    text-align: center;
+
+    border: transparent;
+    background-color: #E5E5E5;
+
+}
+
+#campoMsgEntrada::placeholder {
+    font-size: 1.2rem;
+    opacity: 1;
+    text-decoration: overline;
+}
+
+
+#campoMsgSaida {
+    padding: 50px;
+
+
+    text-align: center;
+    background-color: #FFFFFF;
+
+    /* shadow */
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+    border-color: #0a3871;
+}
+
+#campoMsgSaida:empty {
+    background: url("../Img/High\ quality\ products\ 1\ 1.png") center center no-repeat;
+    background-size: 270px;
+    background-color: #FFFFFF;
+
+}
+
+textarea {
+    resize: none;
+}
+
+/* Compatibilidade do placeholder para os navegadores   */
+#campoMsgSaida::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    text-align: center;
+
+    font-size: 1.2rem;
+    opacity: 1;
+    /* Firefox */
+}
+
+#campoMsgSaida::-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    text-align: center;
+
+}
+
+#campoMsgSaida::-ms-input-placeholder {
+    /* Microsoft Edge */
+    text-align: center;
+
+}
+
+#textareaS {
+    text-align: center;
+    margin-top: -2rem;
+}
+
+.botoes {
+    text-align: center;
+
+}
+
+#imgAtencao {
+    padding: 0.7rem;
+    text-align: center;
+
+}
+
+#imgAtencao {
+    color: #0a3871;
+    opacity: 0.6;
+}
+
+#imgAtencao img {
+    width: 15px;
+}
+
+@media screen and (max-width: 953px) {
+
+
+    #campoMsgSaida {
+        background-image: none;
+        height: 30px;
+    }
+
+    #campoMsgSaida:empty {
+        background-image: none;
+    }
+
+    #campoMsgEntrada {
+        height: 50px;
+
+    }
+}
+
+@media screen and (max-width: 566px) {
+    #totalForm {
+        display: inline-block;
+    }
+
+    #imgAtencao {
+        text-align: center;
+        font-size: 22px;
+
+    }
+
+    div {
+        padding: 10px
+    }
+
+    #campoMsgSaida:empty {
+        background-image: none;
+    }
+}
+
+#btnCopiar {
+    font-size: 1rem;
+    width: 250px;
+    height: 50px;
+
+    background-color: #f0f8ff;
+    color: #0a3871;
+    border-radius: 24px;
+    margin-left: -330px;
+
+
+}
+
+#btnCopiar:hover {
+    background-color: #0a3871;
+    transition-duration: 0.4s;
+    color: #f0f8ff;
+    cursor: pointer;
+
+}

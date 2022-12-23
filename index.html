@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Css/index.css">
+    <title>Alura Challenge D-1</title>
+</head>
+
+<body>
+    <div>
+        <h1 id="logoLetter">a</h1>
+    </div>
+    <div id="totalForm">
+        <div id="textareaS">
+            <label>
+                <textarea name="campoMsg" id="campoMsgEntrada" cols="60" rows="20"
+                    placeholder="Digite aqui seu texto"></textarea>
+            </label>
+            <label>
+                <textarea name="campoMsg" id="campoMsgSaida" cols="40" rows="20"
+                    placeholder="Criptografar ou Descriptografar?" readonly></textarea>
+                <button id="btnCopiar"> Copiar </button>
+            </label>
+
+        </div>
+        <div id="imgAtencao"><img src="Img/Vector.png" alt="ATENCAO!">Apenas letras minúsculas e sem acento.</div>
+        <div class="botoes">
+            <button type="button" id="botaoCrip">Criptografar</button>
+            <button type="button" id="botaoDescrip">Descriptografar</button>
+        </div>
+
+
+    </div>
+    <script src="Script/index.js"></script>
+</body>
+
+</html>
