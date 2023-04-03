@@ -30,7 +30,7 @@ Extras:
 HTML, CSS e JavaScript
 
 ## Como Utilizar
-Este projeto é capaz de codificar e decodificar mensagens. Complete o primeiro campo com a mensagem a ser codificada, clique na opcão codificar ou decoficiar e voce tera uma saida de texto, há também um botão copiar que simula o ctrl + c para copiar para area de transferencia.
+Este projeto é capaz de codificar e decodificar mensagens. Complete o primeiro campo com a mensagem a ser codificada, clique na opção codificar ou decodificar e voce terá uma saida de texto, há também um botão copiar que simula o ctrl + c para copiar para área de transferência.
 
 ## Home / Index 
 ![image](https://user-images.githubusercontent.com/87791042/209414539-b9877131-98e3-4836-a0c5-d06b27e68eaa.png)
